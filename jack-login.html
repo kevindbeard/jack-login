@@ -1,0 +1,67 @@
+<link rel="import" href="../core-icon-button/core-icon-button.html">
+<link rel="import" href="../core-toolbar/core-toolbar.html">
+<link rel="import" href="../paper-input/paper-input.html">
+<link rel="import" href="../paper-button/paper-button.html">
+<link rel="import" href="../paper-checkbox/paper-checkbox.html">
+
+<polymer-element name="jack-login">
+
+  <template>
+    <style>    
+      :host {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+      }
+      #core_card {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        border-radius: 2px;
+        box-shadow: rgba(0, 0, 0, 0.0980392) 0px 2px 4px, rgba(0, 0, 0, 0.0980392) 0px 0px 3px;
+        left: 340px;
+        top: 90px;
+        background-color: rgb(255, 255, 255);
+      }
+      #paper_input {
+        margin: 10px;
+      }
+      #paper_input1 {
+        margin: 10px;
+      }
+      #paper_button {
+        margin: 10px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(79, 125, 201);
+      }
+      #core_toolbar {
+        right: 0px;
+        color: rgb(255, 255, 255);
+        fill: rgb(255, 255, 255);
+        background-color: rgb(79, 125, 201);
+      }
+      #paper_checkbox {
+        margin: 10px;
+      }
+    </style>
+    <core-card id="core_card" layout vertical>
+      <core-toolbar id="core_toolbar">
+        <div id="div" flex>Welcome back</div>
+      </core-toolbar>
+      <paper-input label="Username" id="paper_input"></paper-input>
+      <paper-input label="Password" id="paper_input1"></paper-input>
+      <paper-button id="paper_button">Log in</paper-button>
+      <paper-checkbox label="Remember me" id="paper_checkbox"></paper-checkbox>
+    </core-card>
+  </template>
+
+  <script>
+
+    Polymer({
+      
+    });
+
+  </script>
+
+</polymer-element>

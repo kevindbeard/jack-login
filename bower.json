@@ -1,0 +1,23 @@
+{
+  "name": "jack-login",
+  "version": "0.0.0",
+  "homepage": "https://github.com/kevindbeard/jack-login",
+  "authors": [
+    "Kevin Beard <kevin@camperfans.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "core-icon-button": "Polymer/core-icon-button#~0.5.5",
+    "core-toolbar": "Polymer/core-toolbar#~0.5.5",
+    "paper-input": "Polymer/paper-input#~0.5.5",
+    "paper-button": "Polymer/paper-button#~0.5.5",
+    "paper-checkbox": "Polymer/paper-checkbox#~0.5.5"
+  }
+}

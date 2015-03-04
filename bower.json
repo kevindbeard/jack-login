@@ -18,6 +18,7 @@
     "core-toolbar": "Polymer/core-toolbar#~0.5.5",
     "paper-input": "Polymer/paper-input#~0.5.5",
     "paper-button": "Polymer/paper-button#~0.5.5",
-    "paper-checkbox": "Polymer/paper-checkbox#~0.5.5"
+    "paper-checkbox": "Polymer/paper-checkbox#~0.5.5",
+    "font-roboto": "Polymer/font-roboto#~0.5.5"
   }
 }
